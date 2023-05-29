@@ -2,26 +2,17 @@
   background-color: #2d3237;
 }
 
-#logo:hover{
-  scale:1.1;
-}
-
-a:hover {
-  color: white;
-  cursor: pointer;
-  border-radius: 4px;
-}
-
 .nav-link:hover {
-  /* background-color: rgb(196, 196, 196); */
+  background-color: rgb(196, 196, 196) !important;
   cursor: pointer;
-  border-radius: 10px;
-}
+  border-radius: 10px !important;
 
-.nav-item:hover{
-  /* background-color: rgb(196, 196, 196); */
-  color: #ffffff;
 }
+/*
+.nav-item:hover{
+  background-color: rgb(196, 196, 196);
+  color: #ffffff;
+} */
 
 img {
   height: 70px;
@@ -45,4 +36,12 @@ img {
 
 .form-select option {
   color: #000000;
+}
+
+img[id="logo"]:hover {
+  transform: scale(1.2);
+}
+
+img:hover{
+  scale: 1.15;
 }

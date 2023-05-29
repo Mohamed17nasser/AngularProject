@@ -1,0 +1,19 @@
+#photosBtn{
+  color: black;
+  width: 150px;
+  height: 40px;
+  margin: auto;
+  padding-top: 5px;
+}
+
+#photosBtn:hover{
+  background-color: rgba(0, 0, 0, 0.794);
+  color: white;
+}
+
+#card:hover{
+  /* scale: 1.1; */
+  transform:translateY(-7px);
+  /* box-shadow: 1px 1px 10px black; */
+
+}

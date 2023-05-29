@@ -1,20 +1,19 @@
 <body>
   <app-header-logged-in class="sticky-top"></app-header-logged-in>
-  <div id="header" class="w-100 p-3 d-flex justify-content-around ">
+  <div id="header" class="mx-auto p-3 d-flex justify-content-around">
     <div>
       <h3 style="color:white">Users</h3>
     </div>
     <div>
       <!-- <button  (click)="OpenPopUp()" class="m-auto">+ Add User</button> -->
-      <button mat-raised-button style="background-color: rgb(215, 235, 255);" (click)="OpenPopUp()">Add User</button>
+      <button id="addUserButton" mat-raised-button style="background-color: rgb(215, 235, 255); color: white; border-radius: 6px;" (click)="OpenPopUp()">Add User</button>
     </div>
   </div>
   <div class="d-flex justify-content-center" >
     <div *ngIf="students; else falseblock">
-      <table class="table table-striped mt-3 border">
+      <table class="table table-hover mt-3 border">
         <thead class="table-header">
           <tr>
-            <th></th>
             <th>Name</th>
             <th>Email</th>
             <th>Phone</th>

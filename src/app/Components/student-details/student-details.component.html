@@ -1,27 +1,27 @@
 <body>
   <app-header-logged-in class="sticky-top"></app-header-logged-in>
-  <div class="pt-5 container  d-flex flex-column justify-content-center align-items-center">
-    <div *ngIf="studentData else loading" class="row bg-light alert alert-secondary shadow">
+  <div class="pt-5 container d-flex flex-column justify-content-center align-items-center">
+    <div *ngIf="studentData else loading" id="info"  class="row bg-light alert alert-secondary shadow">
       <div class="px-3 col-4 card-body text-left border-end border-dark">
         <div class="card-text">
-          <h5><b>Name:</b> {{studentData.name}}</h5>
-          <h5><b>Username:</b> {{studentData.username}}</h5>
+          <h6><b>Name:</b> {{studentData.name}}</h6>
+          <h6><b>Username:</b> {{studentData.username}}</h6>
         </div>
       </div>
       <div class="px-3 col-4 card-body text-left border-end border-dark">
         <div class="card-text">
-          <h5>
+          <h6>
             <b>Address:</b> {{studentData.address.street}},
             {{studentData.address.suite}},
             {{studentData.address.city}},
             {{studentData.address.zipcode}}
-          </h5>
+          </h6>
         </div>
       </div>
       <div class="px-3 col-4 card-body text-left">
         <div class="card-text">
-          <h5><b>Phone:</b> {{studentData.phone}}</h5>
-          <h5><b>Email:</b> {{studentData.email}}</h5>
+          <h6><b>Phone:</b> {{studentData.phone}}</h6>
+          <h6><b>Email:</b> {{studentData.email}}</h6>
         </div>
       </div>
     </div>

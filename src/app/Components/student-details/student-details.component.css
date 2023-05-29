@@ -6,7 +6,19 @@ html, body {
 body {
     background: linear-gradient(-45deg, #dc785a, #d91862, #23a6d5, #924fef);
     background-size: 400% 400%;
-
 }
 
 
+#info{
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(221, 185, 185));
+  width: 80%;
+  /* scale: ; */
+  border-radius: 70px;
+  border: #000 solid;
+  /* opacity: 0.6; */
+}
+
+#info:hover{
+  width: 85%;
+  opacity: 1;
+}

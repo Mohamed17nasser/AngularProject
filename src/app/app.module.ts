@@ -60,6 +60,7 @@ import { HeaderLoggedInComponent } from './Components/header-logged-in/header-lo
     MatDialogModule,
     MatButtonModule,
     ReactiveFormsModule,
+
   ],
   providers: [AuthGuard,afterLoginGuardGuard],
   bootstrap: [AppComponent]

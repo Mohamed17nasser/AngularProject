@@ -1,5 +1,20 @@
 #header{
-  background: linear-gradient(to right, rgb(6, 92, 168), rgba(37, 117, 252, 1))
+  background: linear-gradient(to right, rgb(6, 92, 168), rgba(37, 117, 252, 1));
+  width: 80%;
+  /* scale: ; */
+  margin-top: 20px;
+  border-radius: 70px;
+  border: #000 solid;
+  opacity: 0.6;
+}
+#addUserButton{
+  opacity: 1;
+  background: black !important;
+}
+
+#header:hover{
+  width: 85%;
+  opacity: 1;
 }
 
 a{
@@ -8,10 +23,14 @@ a{
   /* cursor:pointer; */
 }
 a:hover{
-  background-color:rgb(196, 196, 196);
-  color: black;
+  background-color:rgb(255, 208, 208);
+  border-radius: 4px;
+  padding: 3px;
+  /* color: rgb(255, 0, 0); */
+  /* font-size: 20px; */
   /* cursor:pointer; */
 }
+
 
 
 

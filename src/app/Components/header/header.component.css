@@ -2,17 +2,17 @@
   background-color: #2d3237;
 }
 
-.nav-link:hover {
-  background-color: rgb(196, 196, 196) !important;
-  cursor: pointer;
-  border-radius: 10px !important;
-  
-}
-/*
-.nav-item:hover{
-  background-color: rgb(196, 196, 196);
-  color: #ffffff;
+/* #logo:hover{
+  scale:1.1;
 } */
+
+a:hover {
+  /* background-color:black; */
+  color: white;
+  /* background: black; */
+  cursor: pointer;
+  border-radius: 4px;
+}
 
 img {
   height: 70px;
@@ -20,12 +20,11 @@ img {
 }
 
 .navbar-nav .nav-link {
-  color: #ffffff; /* Set the text color to white */
-  border-radius: 10px !important;
+  color: #7070ff; /* Set the text color to white */
 }
 
 .navbar-nav .nav-link:hover {
-  color: #000000; /* Set the text color to black on hover */
+  color: #ffbbbb; /* Set the text color to black on hover */
 }
 
 .form-select {
@@ -37,3 +36,26 @@ img {
 .form-select option {
   color: #000000;
 }
+
+
+/* a[class="logo"]:hover{
+  background:none;
+} */
+
+
+/* a {
+  color: linear-gradient(-45deg, #ee9f87, #eaa7c1, #23a6d5, #924fef)!important;
+  animation: gradient 15s ease infinite !important;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+} */
